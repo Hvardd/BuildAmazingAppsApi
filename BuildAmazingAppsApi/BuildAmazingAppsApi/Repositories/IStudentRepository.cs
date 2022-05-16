@@ -6,6 +6,8 @@ namespace BuildAmazingAppsApi.Repositories
     {
         Task<List<Student>> GetStudentsAsync();
 
+        Task<Student> GetStudentAsync(Guid studentId);
+
 
     }
 }
