@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BuildAmazingAppsApi.DomainModels;
+using BuildAmazingAppsApi.Profiles.AfterMaps;
 using DataModels = BuildAmazingAppsApi.DataModels;
 
 
@@ -17,6 +18,9 @@ namespace BuildAmazingAppsApi.Profiles
 
             CreateMap<DataModels.Address, Address>()
               .ReverseMap();
+
+            CreateMap<UpdateStudentRequest, DataModels.Student>()
+                .AfterMap<UpdateStudentRequestAfterMap>();
         }
     }
 }

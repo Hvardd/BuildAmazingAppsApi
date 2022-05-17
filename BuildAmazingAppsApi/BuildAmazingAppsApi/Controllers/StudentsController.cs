@@ -39,5 +39,26 @@ namespace BuildAmazingAppsApi.Controllers
 
             return Ok(mapper.Map<Student>(student));
         }
+
+        [HttpPut]
+        [Route("[controller]/{studentId:guid}")]
+        public async Task<IActionResult> UpdateStudentAsync([FromRoute] Guid studentId, [FromBody] UpdateStudentRequest request)
+        {
+            if(await studentRepository.Exists(studentId))
+            {
+
+ 
+                // Update Details 
+                var updatedStudent = await studentRepository.UpdateStudent(studentId, mapper.Map<DataModels.Student>(request));
+            
+                 if (updatedStudent != null)
+                 {
+                    return Ok(mapper.Map<Student>(updatedStudent));
+                 }
+                }
+          
+                return NotFound();
+       
+        }
     }
 }
