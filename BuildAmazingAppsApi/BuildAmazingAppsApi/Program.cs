@@ -1,7 +1,9 @@
 using BuildAmazingAppsApi.DataModels;
 using BuildAmazingAppsApi.Repositories;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+  
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +26,9 @@ builder.Services.AddCors((options) =>
 
 
 builder.Services.AddControllers();
+
+builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
+
 builder.Services.AddDbContext<StudentAdminContext>(options => options.UseSqlServer(configuration.GetConnectionString("StudentAdminPortalDb")));
 
 builder.Services.AddScoped<IStudentRepository, SqlStudentRepository>();

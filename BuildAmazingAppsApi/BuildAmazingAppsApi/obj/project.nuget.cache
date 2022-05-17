@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "yORyYV9+vH5i5rgW/alxuoKeg1gaBJdtGMVyYlWWMmYfW8WivBnPXIGJvtj16nKkiOGAUmudeR9BfwVWiJw/ZQ==",
+  "dgSpecHash": "RupmGkanj5LczL6jNG9CIIWAb2N5gsOaOvej92SEIzAr+3NHPWHC3X+O0bsva7U5MPaCG+J6LrjPlpWqRrpeNQ==",
   "success": true,
   "projectFilePath": "Q:\\Kompetansehevings\\Build Amazing Apps With Angular and .Net\\Project\\API\\BuildAmazingAppsApi\\BuildAmazingAppsApi\\BuildAmazingAppsApi\\BuildAmazingAppsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.1\\fluentvalidation.aspnetcore.11.0.1.nupkg.sha512",
+    "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.1\\fluentvalidation.dependencyinjectionextensions.11.0.1.nupkg.sha512",
     "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Håvard Ellingsen\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
