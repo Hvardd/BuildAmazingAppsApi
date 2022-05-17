@@ -16,5 +16,7 @@ namespace BuildAmazingAppsApi.Repositories
 
         Task<Student> DeleteStudent(Guid studentId);
 
+        Task<Student> AddStudent(Student request);
+
     }
 }
